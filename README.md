@@ -37,7 +37,7 @@ san_fran_china_beach()
 #> 14 2017-03-13             20     20             0
 ```
 
-<f0><U+009F><U+0092><U+00A9>
+:poop:
 
 Or alternatively, just get the status of the beach ("Open" or "Closed"):
 
@@ -46,4 +46,4 @@ san_fran_windsurfer_circle(status = TRUE)
 #> [1] "Current Beach Status: Open"
 ```
 
-Sweet! <f0><U+009F><U+008F><U+0096>
+Sweet! :beach_umbrella:

@@ -1,0 +1,12 @@
+Package: SanFranBeachWater
+Type: Package
+Title: Downloads and Tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data
+Version: 0.1.0
+Author: Robert Myles McDonnell
+Maintainer: Robert Myles McDonnell <robertmylesmcdonnell@gmail.com>
+Description:
+    Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

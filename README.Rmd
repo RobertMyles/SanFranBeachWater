@@ -35,10 +35,12 @@ san_fran_china_beach()
 
 ```
 
+`r emo::ji("poop")`
+
 Or alternatively, just get the status of the beach ("Open" or "Closed"): 
 
 ```{r}
 san_fran_windsurfer_circle(status = TRUE)
 ```
 
-Sweet `r emo::ji("beach_umbrella")`
+Sweet! `r emo::ji("beach_umbrella")`

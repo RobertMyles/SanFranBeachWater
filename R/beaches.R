@@ -10,6 +10,7 @@
 #' @importFrom dplyr slice
 #' @importFrom dplyr filter
 #' @importFrom dplyr bind_rows
+#' @importFrom magrittr "%>%"
 #' @title Download San Francisco Beach Water Quality Data
 #' @details Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
 #' @rdname san_fran_raw_data

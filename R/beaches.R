@@ -12,6 +12,7 @@
 #' @importFrom dplyr bind_rows
 #' @title Download San Francisco Beach Water Quality Data
 #' @details Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
+#' @rdname san_fran_raw_data
 #' @export
 san_fran_raw_data <- function(){
 
@@ -25,7 +26,8 @@ san_fran_raw_data <- function(){
   return(file)
 }
 
-
+#' @title san_fran_Ocean_Beach
+#' @rdname san_fran_Ocean_Beach
 #' @export
 san_fran_Ocean_Beach <- function(location = c("Sloat Boulevard", "Lincoln Way", "Balboa Street"),
                                  status = FALSE){
@@ -51,7 +53,8 @@ san_fran_Ocean_Beach <- function(location = c("Sloat Boulevard", "Lincoln Way", 
   }
 }
 
-
+#' @title san_fran_china_beach
+#' @rdname san_fran_china_beach
 #' @export
 san_fran_china_beach <- function(status = FALSE){
 
@@ -65,8 +68,8 @@ san_fran_china_beach <- function(status = FALSE){
   }
 }
 
-
-
+#' @title san_fran_baker_beach
+#' @rdname san_fran_baker_beach
 #' @export
 san_fran_baker_beach <- function(location = c("Baker Beach West", "Baker Beach East",
                                               "Baker Beach at Lobos Creek"),
@@ -94,7 +97,8 @@ san_fran_baker_beach <- function(location = c("Baker Beach West", "Baker Beach E
   }
 }
 
-
+#' @title san_fran_crissy_field
+#' @rdname san_fran_crissy_field
 #' @export
 san_fran_crissy_field <- function(location = c("West", "East"),
                                   status = FALSE){
@@ -119,6 +123,8 @@ san_fran_crissy_field <- function(location = c("West", "East"),
   }
 }
 
+#' @title san_fran_aquatic_park
+#' @rdname san_fran_aquatic_park
 #' @export
 san_fran_aquatic_park <- function(status = FALSE){
 
@@ -132,6 +138,8 @@ san_fran_aquatic_park <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_hydeSt_pier
+#' @rdname san_fran_hydeSt_pier
 #' @export
 san_fran_hydeSt_pier <- function(status = FALSE){
 
@@ -145,6 +153,8 @@ san_fran_hydeSt_pier <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_jackrabbit
+#' @rdname san_fran_jackrabbit
 #' @export
 san_fran_jackrabbit <- function(status = FALSE){
   url <- "https://sfwater.org/cfapps/LIMS/beachresults3.cfm?loc=4615"
@@ -157,6 +167,8 @@ san_fran_jackrabbit <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_windsurfer_circle
+#' @rdname san_fran_windsurfer_circle
 #' @export
 san_fran_windsurfer_circle <- function(status = FALSE){
   url <- "https://sfwater.org/cfapps/LIMS/beachresults3.cfm?loc=4616"
@@ -169,6 +181,8 @@ san_fran_windsurfer_circle <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_sunnydale_cove
+#' @rdname san_fran_sunnydale_cove
 #' @export
 san_fran_sunnydale_cove <- function(status = FALSE){
   url <- "https://sfwater.org/cfapps/LIMS/beachresults3.cfm?loc=4617"
@@ -180,6 +194,8 @@ san_fran_sunnydale_cove <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_mission_creek
+#' @rdname san_fran_mission_creek
 #' @export
 san_fran_mission_creek <- function(status = FALSE){
   url <- "https://sfwater.org/cfapps/LIMS/beachresults3.cfm?loc=4618"
@@ -191,6 +207,8 @@ san_fran_mission_creek <- function(status = FALSE){
   }
 }
 
+#' @title san_fran_islais_creek
+#' @rdname san_fran_islais_creek
 #' @export
 san_fran_islais_creek <- function(status = FALSE){
   url <- "https://sfwater.org/cfapps/LIMS/beachresults3.cfm?loc=4619"

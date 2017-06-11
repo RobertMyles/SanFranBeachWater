@@ -6,6 +6,6 @@
 \usage{
 san_fran_raw_data()
 }
-\details{
+\description{
 Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
 }

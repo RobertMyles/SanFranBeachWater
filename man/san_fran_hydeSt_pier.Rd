@@ -6,3 +6,9 @@
 \usage{
 san_fran_hydeSt_pier(status = FALSE)
 }
+\arguments{
+\item{status}{. Show beach status?}
+}
+\description{
+Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
+}

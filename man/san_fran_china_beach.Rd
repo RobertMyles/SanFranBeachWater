@@ -12,3 +12,9 @@ san_fran_china_beach(status = FALSE)
 \description{
 Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
 }
+\examples{
+china <- san_fran_china_beach()
+
+# See if the beach is open:
+san_fran_china_beach(status = TRUE)
+}

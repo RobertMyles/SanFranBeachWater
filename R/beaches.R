@@ -61,11 +61,12 @@ san_fran_Ocean_Beach <- function(location = c("Sloat Boulevard", "Lincoln Way", 
 #' @rdname san_fran_china_beach
 #' @description Downloads and tidies the San Francisco Public Utilities Commission Beach Water Quality Monitoring Program data. Datasets can be downloaded per beach, or the raw data can be downloaded.
 #' @param status . Show beach status?
-#' @examples 
+#' @examples\dontrun{
 #' china <- san_fran_china_beach()
-#' 
+#'
 #' # See if the beach is open:
 #' san_fran_china_beach(status = TRUE)
+#' }
 #' @export
 san_fran_china_beach <- function(status = FALSE){
 

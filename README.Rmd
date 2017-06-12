@@ -14,14 +14,16 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SanFranBeachWater)](https://cran.r-project.org/package=SanFranBeachWater)
+
 # SanFranBeachWater
 
 `SanFranBeachWater` is a little R package that downloads the Beach Water Quality Monitoring Program data that the the San Francisco Public Utilities Commission maintain [here](http://sfwater.org/cfapps/lims/beachmain1.cfm). The data can be downloaded in raw form, or tables for individual beaches can be downloaded. 
 
 ## Installation
 
-```{r, eval = FALSE}
-devtools::install_github("RobertMyles/SanFranBeachWater")
+```{r, eval = F}
+install.packages("SanFranBeachWater")
 ```
 
 ## Usage  

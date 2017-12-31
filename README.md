@@ -38,13 +38,12 @@ san_fran_china_beach()
 #> 13 2017-03-20              0      0             0
 ```
 
-ð©
 
 Or alternatively, just get the status of the beach ("Open" or "Closed"):
 
 ``` r
 san_fran_windsurfer_circle(status = TRUE)
-#> [1] "Current Beach Status:Â Open"
+#> [1] "Current Beach Status: Open"
 ```
 
-Sweet! ð
+Sweet! :beach_umbrella:
